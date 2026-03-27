@@ -1,0 +1,92 @@
+/* App Background */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background: #f5f7fb;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main Card */
+.simple-todos-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+  padding: 30px 100px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Input Section */
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 18px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.input:focus {
+  border-color: #2563eb;
+}
+
+/* Add Button */
+.add-button {
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.add-button:hover {
+  background: #1d4ed8;
+}
+
+/* Filter Buttons */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.filter-container button {
+  background: #e2e8f0;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.filter-container button:hover {
+  background: #cbd5f5;
+}
+
+/* Todo List */
+.todos-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 42px;
+  text-align: center; 
+  margin-bottom: 50px;
+}

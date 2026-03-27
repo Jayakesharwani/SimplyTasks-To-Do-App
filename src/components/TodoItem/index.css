@@ -1,0 +1,87 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8fafc;
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: 0.2s ease;
+}
+
+.todo-item:hover {
+  background: #eef2ff;
+}
+
+/* Left section (checkbox + text) */
+.todo-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+/* Title */
+.title {
+  font-size: 15px;
+  color: #334155;
+  margin: 0;
+}
+
+/* Completed State */
+.completed {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+/* Input while editing */
+.input {
+  padding: 6px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.2s;
+  margin-left: 10px;
+}
+
+/* Edit */
+button:nth-child(3) {
+  background: #facc15;
+  color: #000;
+}
+
+button:nth-child(3):hover {
+  background: #eab308;
+}
+
+/* Save */
+button:nth-child(3) {
+  background: #22c55e;
+  color: #fff;
+}
+
+/* Delete */
+button:last-child {
+  background: #ef4444;
+  color: #fff;
+}
+
+button:last-child:hover {
+  background: #dc2626;
+}
+
+/* Checkbox */
+input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
