@@ -19,7 +19,6 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
 
-
 /* Input Section */
 .input-container {
   display: flex;
@@ -87,6 +86,6 @@
 .heading {
   font-family: 'Dancing Script', cursive;
   font-size: 42px;
-  text-align: center; 
+  text-align: center;
   margin-bottom: 50px;
 }
