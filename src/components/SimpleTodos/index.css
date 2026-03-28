@@ -14,7 +14,7 @@
   width: 100%;
   min-height: 100vh;
   background: #ffffff;
-  padding: 30px 100px;
+  padding: 30px 40px;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
@@ -88,4 +88,38 @@
   font-size: 42px;
   text-align: center;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .simple-todos-container {
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .input-container {
+    flex-direction: column;
+  }
+
+  .input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .add-button {
+    width: 100%;
+  }
+
+  .filter-container {
+    flex-wrap: wrap;
+  }
+
+   
+  button {
+    margin-left: 0;
+    margin-right: 10px;
+  }
 }
