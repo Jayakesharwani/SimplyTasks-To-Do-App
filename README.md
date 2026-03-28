@@ -1,122 +1,88 @@
-In this project, let's build a **Simple Todos** app by applying the concepts we have learned till now.
+# 🚀 SimplyTasks – Smart Todo Application
 
-### Refer to the image below:
+A feature-rich and user-friendly Todo application built using React.js, designed to improve productivity with advanced task management features.
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/simple-todos-output.gif" alt="simple todos output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+---
 
-### Design Files
+## ✨ Features
 
-<details>
-<summary>Click to view</summary>
+- ➕ Add, Edit & Delete Todos  
+- ⚡ Bulk Task Creation 
+- ✅ Mark Tasks as Complete  
+- 🔍 Filter Tasks (All / Active / Completed)  
+- 💾 Persistent Data using Local Storage  
+- 🎯 Clean and Responsive UI  
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/simple-todos-sm-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/simple-todos-lg-output-v2.png)
+---
 
-</details>
+## 🛠️ Tech Stack
 
-### Set Up Instructions
+- React.js (Class Components)
+- JavaScript (ES6+)
+- CSS3
+- Local Storage API
 
-<details>
-<summary>Click to view</summary>
+---
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+## 💡 Key Highlights
 
-### Completion Instructions
+- Implemented custom logic for bulk task generation to improve user efficiency  
+- Managed application state effectively using React lifecycle methods  
+- Ensured seamless user experience with real-time UI updates  
+- Built without backend by leveraging browser storage  
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+---
 
-The app must have the following functionalities
+## 📂 Project Structure
 
-- Initially, the list of given todos should be displayed with a delete button for each todo
-- When **Delete** button of a todo is clicked, then the respective todo should be deleted
-- The `SimpleTodos` will consist of the `initialTodosList`. It consists of a list of todo objects with the following properties in each todo object
 
-  |  Key  | Data Type |
-  | :---: | :-------: |
-  |  id   |  Number   |
-  | title |  String   |
+src/
+├── components/
+│ ├── SimpleTodos/
+│ └── TodoItem/
+├── App.js
+└── index.js
 
-</details>
 
-<details>
-<summary>Components Structure</summary>
+---
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/simple-todos-component-structure.png" alt="simple todos component structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+## 🚀 Getting Started
 
-</details>
+1. Clone the repository  
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
+   git clone https://github.com/JayaKesharwani/SimplyTasks-To-Do-App.git
 
-Use these files to complete the implementation:
 
-- `src/components/SimpleTodo/index.js`
-- `src/components/SimpleTodo/index.css`
-- `src/components/TodoItem/index.js`
-- `src/components/TodoItem/index.css`
-</details>
+2. Install dependencies  
 
-### Quick Tips
+   npm install
 
-<details>
-<summary>Click to view</summary>
-<br>
 
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
+3. Run the app  
 
-  ```
-    cursor: pointer;
-  ```
+   npm start
 
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
 
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
+---
 
-  ```
-    outline: none;
-  ```
+## 📸 Screenshots
 
-</details>
+![App Screenshot](https://github.com/Jayakesharwani/SimplyTasks-To-Do-App/blob/57d785a7211e52070b2c513bd642d2ced9a14a45/SimplyTasks%20Project%20Screenshot%20.png)
 
-### Resources
+---
 
-<details>
-<summary>Colors</summary>
+## 🔗 Live Demo
 
-<br/>
+ https://simplyTasks.ccbp.tech
 
-<div style="background-color: #ffc2a0; width: 150px; padding: 10px; color: black">Hex: #ffc2a0</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #ff8542; width: 150px; padding: 10px; color: white">Hex: #ff8542</div>
-<div style="background-color: #000000; width: 150px; padding: 10px; color: white">Hex: #000000</div>
-<div style="background-color: #ff0b37; width: 150px; padding: 10px; color: white">Hex: #ff0b37</div>
+---
 
-</details>
+## 👩‍💻 Author
 
-<details>
-<summary>Font-families</summary>
+**Jaya Kesharwani**
 
-- Roboto
+---
 
-</details>
+## ⭐ If you like this project
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+Give it a ⭐ on GitHub and share your feedback!
