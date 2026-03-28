@@ -73,7 +73,7 @@ src/
 
 ## 🔗 Live Demo
 
- https://simplyTasks.ccbp.tech
+https://SimplyTasks.ccbp.tech
 
 ---
 
